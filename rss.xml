@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Metal Metal Podcast</title>
+    <link>http://www.metalmetalpodcast.com/</link>
+    <language>en-us</language>
+    <copyright>&#x2117; &amp; &#xA9; 2014 Matt Taylor &amp; Jeff Brown</copyright>
+    
+    <itunes:subtitle>The most metal metal podcast out there.</itunes:subtitle>
+    
+    <itunes:author>Matt Taylor &amp; Jeff Brown</itunes:author>
+    
+    <itunes:summary>This podcast was founded by metal fans Jeff Scott Brown and Matt Taylor. We've been damaging our eardrums with thrashing heavy metal for decades. In each podcast, we'll explore our metal libraries to bring you hidden gems of pounding, chunky, raw walls of sound. Jeff is an aficionado of classic bands like Black Sabbath and Slayer, but his knowledge of the metal genre is broad and deep. Progressive rock and heavy metal is Jeff's forte. Matt gets his metal kicks from droning heavy stoner and doom metal. Whether it's the unrelenting hum of Sleep or the raw power of Clutch, he'll bring you a serious metal fix. But we're not one trick ponies. Get ready to hear us explore all genres of metal.</itunes:summary>
+
+    <description>This podcast was founded by metal fans Jeff Scott Brown and Matt Taylor. We've been damaging our eardrums with thrashing heavy metal for decades. In each podcast, we'll explore our metal libraries to bring you hidden gems of pounding, chunky, raw walls of sound. Jeff is an aficionado of classic bands like Black Sabbath and Slayer, but his knowledge of the metal genre is broad and deep. Progressive rock and heavy metal is Jeff's forte. Matt gets his metal kicks from droning heavy stoner and doom metal. Whether it's the unrelenting hum of Sleep or the raw power of Clutch, he'll bring you a serious metal fix. But we're not one trick ponies. Get ready to hear us explore all genres of metal.</description>
+
+    <itunes:explicit>yes</itunes:explicit>
+
+    <itunes:owner>
+      <itunes:name>Matt Taylor</itunes:name>
+      <itunes:email>rhyolight@gmail.com</itunes:email>
+    </itunes:owner>
+
+    <itunes:image href="http://www.metalmetalpodcast.com/images/mmp-image.jpg" />
+    
+    <itunes:category text="Music">
+      <itunes:category text="Rock">
+        <itunes:category text="Metal"/>
+        <itunes:category text="Death Metal/Black Metal"/>
+      </itunes:category>
+    </itunes:category>
+    
+    <item>
+      <title>The First Metal Metal Podcast</title>
+      <itunes:author>Matt Taylor &amp; Jeff Brown</itunes:author>
+      <itunes:subtitle>Turn up the volume!</itunes:subtitle>
+      <itunes:summary>We introduce ourselves and this podcast, then rock out to Danzig, Slayer, Manilla Road, and more.</itunes:summary>
+      <itunes:image href="http://www.metalmetalpodcast.com/images/mmp-image.jpg" />
+      <enclosure 
+        url="https://s3-us-west-2.amazonaws.com/metal-metal-podcast/MMP_episode_1.mp3" 
+        length="82389541" 
+        type="audio/mpeg" />
+      <guid>https://s3-us-west-2.amazonaws.com/metal-metal-podcast/MMP_episode_1.mp3</guid>
+      <pubDate>Wed, 8 Jan 2014 6:11:00 GMT</pubDate>
+      <itunes:duration>1:25:49</itunes:duration>
+    </item>
+
+  </channel>
+</rss>
