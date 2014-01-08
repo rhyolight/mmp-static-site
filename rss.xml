@@ -23,12 +23,7 @@
 
     <itunes:image href="http://www.metalmetalpodcast.com/images/mmp-image.jpg" />
     
-    <itunes:category text="Music">
-      <itunes:category text="Rock">
-        <itunes:category text="Metal"/>
-        <itunes:category text="Death Metal/Black Metal"/>
-      </itunes:category>
-    </itunes:category>
+    <itunes:category text="Music"/>
     
     <item>
       <title>The First Metal Metal Podcast</title>
