@@ -150,6 +150,73 @@
 
       </section>
 
+      <section class="podcast-episode panel panel-default">
+        <div class="panel-heading">
+          <h2>Episode 2: Jeff's Bloody Mosh Pit Experience</h2>
+        </div>
+        <div class="panel-body">
+
+        <div class="pull-right">
+          <h3>Playlist</h3>
+          <ul class="list-group">
+            <li class="list-group-item">Amon Amarth - Fate of Norns</li>
+            <li class="list-group-item">Hammers of Misfortune - The August Engine Part 1</li>
+            <li class="list-group-item">Opeth - Bleak</li>
+            <li class="list-group-item">Clutch - In the Great Shining Path of Monster Trucks</li>
+            <li class="list-group-item">Candlemass - Ancient Dreams</li>
+            <li class="list-group-item">Dethklok - Face Fisted</li>
+            <li class="list-group-item">Electric Wizard - Black Mass</li>
+          </ul>
+        </div>
+
+        <h4><a href="http://s3-us-west-2.amazonaws.com/metal-metal-podcast/MMP_episode_2.mp3">Download MP3</a></h4>
+
+          <!-- jPlayer -->
+          <div id="media_player_episode_2" class="jp-jplayer"></div>
+          <div id="jp_container_2" class="jp-audio">
+            <div class="jp-type-single">
+              <div class="jp-gui jp-interface">
+                <ul class="jp-controls">
+                  <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+                  <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+                  <li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
+                  <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+                  <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+                  <li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume">max volume</a></li>
+                </ul>
+                <div class="jp-progress">
+                  <div class="jp-seek-bar">
+                    <div class="jp-play-bar"></div>
+                  </div>
+                </div>
+                <div class="jp-volume-bar">
+                  <div class="jp-volume-bar-value"></div>
+                </div>
+                <div class="jp-time-holder">
+                  <div class="jp-current-time"></div>
+                  <div class="jp-duration"></div>
+                  <ul class="jp-toggles">
+                    <li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li>
+                    <li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="jp-title">
+                <ul>
+                  <li>Metal Metal Podcast - Episode 1</li>
+                </ul>
+              </div>
+              <div class="jp-no-solution">
+                <span>Update Required</span>
+                To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+              </div>
+            </div>
+          </div> <!-- jPlayer -->
+
+        </div>
+
+      </section>
+
     </div> <!-- /container -->
 
 
@@ -164,6 +231,15 @@
           ready: function () {
             $(this).jPlayer("setMedia", {
               mp3: "http://s3-us-west-2.amazonaws.com/metal-metal-podcast/MMP_episode_1.mp3"
+            });
+          },
+          swfPath: "/js",
+          supplied: "mp3"
+        });
+        $("#media_player_episode_2").jPlayer({
+          ready: function () {
+            $(this).jPlayer("setMedia", {
+              mp3: "http://s3-us-west-2.amazonaws.com/metal-metal-podcast/MMP_episode_2_fuck.mp3"
             });
           },
           swfPath: "/js",
