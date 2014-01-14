@@ -19,9 +19,6 @@
     <!-- Custom styles for this template -->
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
 
-    <!-- the CSS layout of LeanBack Player -->
-    <link rel="stylesheet" type="text/css" href="css/leanbackPlayer.default.css"/>
-
     <!-- Custom Metal Metal styles -->
     <link href="css/metal.css" rel="stylesheet">
 
@@ -90,7 +87,17 @@
         </div>
         <div class="panel-body">
 
-        <div class="pull-right">
+          <h4><a href="http://s3-us-west-2.amazonaws.com/metal-metal-podcast/MMP_episode_1.mp3">Download MP3</a></h4>
+
+          <!-- surrounding element with class for leanback -->
+          <div class="leanback-player-audio" width="350px">
+              <!-- HTML5 <audio> element -->
+              <audio preload="metadata" controls>
+                  <!-- HTML5 <audio> sources -->
+                  <source src="http://s3-us-west-2.amazonaws.com/metal-metal-podcast/MMP_episode_1.mp3" type='audio/mpeg; codecs="vorbis"'/>
+              </audio>
+          </div>
+
           <h3>Playlist</h3>
           <ul class="list-group">
             <li class="list-group-item">Uncle Acid and the Deadbeats - I'll Cut You Down</li>
@@ -100,33 +107,17 @@
             <li class="list-group-item">Manilla Road - Into the Maelstrom</li>
             <li class="list-group-item">Slayer - Altar of Sacrifice</li>
           </ul>
-        </div>
 
-        <h4><a href="http://s3-us-west-2.amazonaws.com/metal-metal-podcast/MMP_episode_1.mp3">Download MP3</a></h4>
-
-        <!-- surrounding element with class for leanback -->
-        <div class="leanback-player-audio" width="350px">
-            <!-- HTML5 <audio> element -->
-            <audio preload="metadata" controls>
-                <!-- HTML5 <audio> sources -->
-                <source src="http://s3-us-west-2.amazonaws.com/metal-metal-podcast/MMP_episode_1.mp3" type='audio/mpeg; codecs="vorbis"'/>
-            </audio>
         </div>
 
       </section>
 
     </div> <!-- /container -->
 
-
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
-
-    <!-- the Javascript file of LeanBack Player -->
-    <script type="text/javascript" src="js/leanbackPlayer.pack.js"></script>
-    <!-- LeanBack Language file -->
-    <script type="text/javascript" src="js/leanbackPlayer.en.js"></script>
 
   </body>
 </html>
