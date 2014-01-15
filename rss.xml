@@ -48,11 +48,11 @@
       <itunes:image href="http://www.metalmetalpodcast.com/images/mmp-image.jpg" />
       <enclosure 
         url="http://s3-us-west-2.amazonaws.com/metal-metal-podcast/MMP_episode_2.mp3" 
-        length="106509122" 
+        length="106000059" 
         type="audio/mpeg" />
       <guid>http://s3-us-west-2.amazonaws.com/metal-metal-podcast/MMP_episode_2.mp3</guid>
       <pubDate>Wed, 15 Jan 2014 06:11:00 GMT</pubDate>
-      <itunes:duration>1:50:56</itunes:duration>
+      <itunes:duration>1:50:24</itunes:duration>
     </item>
 
   </channel>
