@@ -55,5 +55,20 @@
       <itunes:duration>1:50:24</itunes:duration>
     </item>
 
+      <item>
+          <title>The Lost Valentine's Day Episode</title>
+          <itunes:author>Matt Taylor &amp; Jeff Brown</itunes:author>
+          <itunes:subtitle>Turn up the volume!</itunes:subtitle>
+          <itunes:summary>We debate whether Soundgarden is a metal band. Jeff gets into Sepultur and Iced Earth details. Matt talks about occult Lovecraftian horror.</itunes:summary>
+          <itunes:image href="http://www.metalmetalpodcast.com/images/mmp-image.jpg" />
+          <enclosure
+                  url="http://s3-us-west-2.amazonaws.com/metal-metal-podcast/MMP_episode_3.mp3"
+                  length="106000059"
+                  type="audio/mpeg" />
+          <guid>http://s3-us-west-2.amazonaws.com/metal-metal-podcast/MMP_episode_3.mp3</guid>
+          <pubDate>Sun, 24 Aug 2014 06:11:00 GMT</pubDate>
+          <itunes:duration>1:34:07</itunes:duration>
+      </item>
+
   </channel>
 </rss>
